@@ -28,3 +28,6 @@ public class App
         System.out.println(myDoc.toJson());
     }
 }
+
+// Connect to MongoDB
+MongoClient mongoClient = new MongoClient("mongo-dbserver");
